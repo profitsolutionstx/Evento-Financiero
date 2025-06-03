@@ -1,0 +1,108 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background: #004080;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Sección principal */
+.hero {
+  background: #e6f2ff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Botón de llamada a la acción */
+.cta-button {
+  background: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #e65c00;
+}
+
+/* Sección de contenido */
+.section {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Testimonios */
+.testimonials {
+  background: #fff;
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+}
+
+.testimonial {
+  margin-bottom: 1.5rem;
+}
+
+.testimonial p {
+  font-style: italic;
+}
+
+/* Pie de página */
+footer {
+  background: #004080;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Diseño responsive */
+@media (min-width: 768px) {
+  .hero h2 {
+    font-size: 3rem;
+  }
+  .hero p {
+    font-size: 1.3rem;
+  }
+  .section h2 {
+    font-size: 2.2rem;
+  }
+}
